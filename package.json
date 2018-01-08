@@ -1,0 +1,20 @@
+{
+    "name": "package-node-bi-gateway",
+    "version": "1.0.3",
+    "description": "Integração com power bi.",
+    "main": "lib/index.js",
+    "dependencies": {
+        "adal-node": "^0.1.26",
+        "blowfish": "^1.0.1",
+        "promise": "^8.0.1",
+        "request": "^2.83.0",
+        "request-promise": "^4.2.2"
+    },
+    "scripts": {
+        "patch": "node bin/_service.js patch",
+        "minor": "node bin/_service.js minor",
+        "major": "node bin/_service.js major"
+    },
+    "author": "Gustavo Maritan <gustavo@smn.com.br>",
+    "license": "ISC"
+}
